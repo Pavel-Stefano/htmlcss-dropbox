@@ -96,7 +96,7 @@ ul li a {
 
 #prova-gratuita i {
     font-size: 30px;
- 
+    color: black;
 }
 
 .jumbotron-container .image-jumbo {
@@ -108,10 +108,84 @@ ul li a {
     position: relative;
     bottom: -50px;
 }
-
-
-
-
 /* <!-- /jumbotron --> */
 
+/* section 1 */
 
+/* titolo */
+section h2 {
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.cheatbox {
+    padding: 30px 0;
+}
+
+.cerchio {
+    width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#annuale {
+    border: 3px solid blue;
+}
+
+/* box 1*/
+
+.box {
+    width: 30%;
+}
+
+.box .promo{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+/* promo header */
+.promo-header, .promo-centrale {
+    padding: 30px;
+}
+
+.promo-header h4{
+    font-size: 30px;
+}
+
+.promo-header .prezzo{
+    font-weight: bold;
+    display: inline-block;
+}
+
+.promo-header .tariffa{
+    color: lightgrey;
+}
+
+.promo-header .prezzo, .promo-header .tariffa{
+    padding-top: 10px;
+}
+
+/* promo centrale */
+.contenitore-promo {
+    padding: 20px 0;
+}
+
+.contenitore-promo i {
+    width: 10%;
+}
+
+.contenitore-promo p {
+    width: 90%;
+}
+
+#prova-30-giorni a{
+    padding: 8px 48px;
+    margin-bottom: 30px;
+}
+
+.acquista-ora span {
+    padding-bottom:30px ;
+    border-bottom: 1px solid grey;
+}
