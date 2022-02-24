@@ -138,6 +138,7 @@ section h2 {
 
 .box {
     width: 30%;
+    height: 900px;
 }
 
 .box .promo{
@@ -146,8 +147,9 @@ section h2 {
     border-bottom: 1px solid black;
 }
 /* promo header */
-.promo-header, .promo-centrale {
-    padding: 30px;
+.promo-header, .promo-centrale, .promo-footer {
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .promo-header h4{
@@ -169,7 +171,7 @@ section h2 {
 
 /* promo centrale */
 .contenitore-promo {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .contenitore-promo i {
@@ -182,10 +184,22 @@ section h2 {
 
 #prova-30-giorni a{
     padding: 8px 48px;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 .acquista-ora span {
     padding-bottom:30px ;
     border-bottom: 1px solid grey;
+}
+/* /promo centrale */
+
+/* promo footer */
+
+.promo-footer .punti-salienti {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.promo-footer i {
+    color: blue;
 }
