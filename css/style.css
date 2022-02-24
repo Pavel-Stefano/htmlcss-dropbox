@@ -113,13 +113,19 @@ ul li a {
     bottom: -50px;
 }
 /* <!-- /jumbotron --> */
+/*  /header */
+
+
+/* main */
+main {
+    padding-top: 150px;
+}
 
 /* section 1 */
 
 /* titolo */
-#titolo-section-1 {
+.titolo-section {
     font-size: 40px;
-    padding-top: 150px;
 }
 
 .cheatbox {
@@ -153,7 +159,7 @@ ul li a {
 .box .promo{
     text-align: center;
     padding: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgrey;
 }
 /* promo header */
 .promo-header, .promo-centrale, .promo-footer {
@@ -244,6 +250,7 @@ ul li a {
 /* /box-footer  */
 /* /section 2 */
 
+
 /* section 3 */
 .contenitore-section-3{
     padding: 150px 0;
@@ -274,6 +281,29 @@ ul li a {
     margin-top: 50px;
 }
 /* /section 3 */
- 
+
+
+/* section 4 */
+
+.box-strumenti {
+    margin-top: 100px;
+    width: 30%;
+    height: 500px;
+}
+
+.box-strumenti img{
+    width: 100%;
+}
+
+.box-strumenti h3{
+    font-size: 27px;
+    padding-bottom: 25px;
+}
+
+.box-strumenti span{
+    text-decoration: underline;
+}
+/* /section 4 */
+
 
  
