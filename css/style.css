@@ -316,5 +316,36 @@ main {
 }
 /* /section 5 */
 
+/* section 6 */
+.contenitore-section-6 {
+    background-color: lightgrey;
+}
 
- 
+.contenitore-section-6 .sinistra, .contenitore-section-6 .destra {
+    width: 30%;
+    height: 400px;
+}
+
+.contenitore-section-6 .centrale{
+    width: 40%;
+    height: 400px;
+}
+
+.box-image {
+    width: 50%;
+}
+
+.box-image img{
+    width: 50%;
+    height: 200px;
+    object-fit: scale-down;
+    margin: 0 50px;
+}
+
+#designit {
+    background-color: #95d1b4;;
+}
+
+#arizona {
+    background-color: rgb(148, 45, 45);
+}
