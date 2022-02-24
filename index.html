@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-dropbox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -42,7 +43,7 @@
             <div class="jumbotron-container clearfix ">
                 <div class="text left ">
                     <p>
-                        Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business &eacute; più di uno spazio di archiviazione sicuro: &eacute; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                        Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business &eacute; più di uno spazio di <br> archiviazione sicuro: &eacute; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                     </p>
 
                     <div id="prova-gratuita">
@@ -65,15 +66,15 @@
     <!--/ header -->
 
     <!-- main -->
-    <main>
+    <main class="container">
         <!-- section 1 -->
-        <section class="container clearfix ">
-            <h2 class="debag" >Trova il piano Dropbox Business che fa per te</h2>
+        <section class="clearfix ">
+            <h2 id="titolo-section-1" >Trova il piano Dropbox Business che fa per te</h2>
 
             <div class="cheatbox ">
                 <span id="annuale" class="cerchio"></span>
                 <span>Fatturazione mensile</span>
-                <span class="cerchio"></span>
+                <span id="mensile" class="cerchio"></span>
                 <span>Fatturazione annuale</span>
             </div>
 
@@ -87,7 +88,7 @@
                 <!-- promo header -->
                 <div class="promo-header">
                     <h4>Professional</h4>
-                    <span class="prezzo">19,99&euro;</span>
+                    <span class="prezzo">19,99 &euro;</span>
                     <p class="tariffa">/mese </p>
                 </div>
                  <!-- /promo header -->
@@ -95,7 +96,7 @@
                  <!-- promo centrale -->
                 <div class="promo-centrale">
                     <div class="contenitore-promo clearfix ">
-                        <i class="fa-solid fa-user-tie left"></i>
+                        <i class="fa-solid fa-user left"></i>
                         <p class="left ">
                             1 Utente
                         </p>
@@ -122,9 +123,103 @@
                     <div class="acquista-ora">
                        <span> oppure </span><a href="#">acquista ora</a>
                     </div>
+                </div>
+                <!-- /promo centrale -->
+
+
+                <!-- promo footer -->
+                <div class="promo-footer">
+                    <p class="punti-salienti">
+                        Punti salienti del piano
+                    </p>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Invia file fino a 100 GB con Dropbox Transfert
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Cartelle offline su dispositivi mobili
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Pulizia remota dell'account
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Filigrana documento
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Assistenza prioritaria via email e chat
+                        </p>
+                    </div>
+                </div>
+                <!-- /promo footer -->
+            </div>
+            <!-- /box 1 -->
+
+            <!-- box 2 -->
+            <div class="box box-central left debug">
+                <div class="promo">
+                    <i class="fa-regular fa-building"></i>
+                    <span>Team</span>
+                </div>
+                <!-- promo header -->
+                <div class="promo-header">
+                    <h4>Standard</h4>
+                    <span class="prezzo">19,99 &euro;</span>
+                    <p class="tariffa">/ utente /mese, a partire da 3 utenti </p>
+                </div>
+                 <!-- /promo header -->
+
+                 <!-- promo centrale -->
+                <div class="promo-centrale">
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-user-plus left"></i>
+                        <p class="left ">
+                            1 Utente
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-regular fa-folder left "></i>
+                        <p class="left ">
+                            3 TB di spazio di archiviazione sicuro
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-regular fa-face-smile left"></i>
+                        <p class="left ">
+                            funzioni di produttività premium e condivisioni file semplice e sicura
+                        </p>
+                    </div>
+
+                    <div id="prova-30-giorni">
+                        <a class="btn" href="#">Prova gratis per 30 giorni</a>
+                    </div>
+
+                    <div class="acquista-ora">
+                       <span> oppure </span><a href="#">acquista ora</a>
+                    </div>
                     <!-- /promo centrale -->
                 </div>
 
+                    <!-- promo footer -->
                 <div class="promo-footer">
                     <p class="punti-salienti">
                         Punti salienti del piano
@@ -165,11 +260,136 @@
                         </p>
                     </div>
 
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Assistenza prioritaria via email e chat
+                        </p>
+                    </div>
                 </div>
+                    <!-- /promo footer -->
+            </div>
+                    <!-- /box 2-->
 
+                    <!-- box 3 -->
+            <div class="box left debug">
+                <div class="promo">
+                    <i class="fa-regular fa-building"></i>
+                    <span>Team</span>
+                </div>
+                <!-- promo header -->
+                <div class="promo-header">
+                    <h4>Advanced</h4>
+                    <span class="prezzo">19,99 &euro;</span>
+                    <p class="tariffa">/ utente /mese, a partire da 3 utenti </p>
+                </div>
+                 <!-- /promo header -->
+
+                 <!-- promo centrale -->
+                <div class="promo-centrale">
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-user-plus left"></i>
+                        <p class="left ">
+                            1 Utente
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-regular fa-folder left "></i>
+                        <p class="left ">
+                            3 TB di spazio di archiviazione sicuro
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-pen left "></i>
+                        <p class="left ">
+                            funzioni di produttività premium e condivisioni file semplice e sicura
+                        </p>
+                    </div>
+
+                    <div id="prova-30-giorni">
+                        <a class="btn" href="#">Prova gratis per 30 giorni</a>
+                    </div>
+
+                    <div class="acquista-ora">
+                       <span> oppure </span><a href="#">acquista ora</a>
+                    </div>
+                </div>
+                <!-- /promo centrale -->
+
+                <!-- /promo footer -->
+                <div class="promo-footer">
+                    <p class="punti-salienti">
+                        Punti salienti del piano
+                    </p>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Invia file fino a 100 GB con Dropbox Transfert
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Cartelle offline su dispositivi mobili
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Pulizia remota dell'account
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Filigrana documento
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Assistenza prioritaria via email e chat
+                        </p>
+                    </div>
+
+                    <div class="contenitore-promo clearfix ">
+                        <i class="fa-solid fa-check left"></i>
+                        <p class="left ">
+                            Assistenza prioritaria via email e chat
+                        </p>
+                    </div>
+                </div>
+            </div>
+                <!-- /box 3 -->
+        </section>
+                <!-- /section 1 -->
+
+                <!-- <section 2> -->
+        <section>
+                <!-- box footer -->
+            <div class="box-footer debug">
+                <i class="fa-regular fa-building"></i>
+                <span>Team</span>
             </div>
 
-           
+            <div class="contenitore-box-footer debug clearfix">
+                <div class="text-left left">
+                    <h2>Enterprise</h2>
+                    <p><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
+                    <span>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</span>
+                </div>
+    
+                <div class="text-right right">
+                        <a class="btn" href="#">Contatta l'ufficio vendite</a>
+                </div>
+            </div>
         </section>
 
         

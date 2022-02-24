@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -34,7 +35,7 @@
 }
 
 .debug {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 
 /* header */
@@ -72,22 +73,21 @@ ul li a {
 /* jumbotron */
 #jumbotron {
     background-color: rgb(90, 170, 197);
-    padding: 0 210px;
+    padding: 0 90px;
 }
 
 #jumbotron h1 {
-    font-size: 65px;
+    font-size: 70px;
     padding-top: 50px;
 }
 
 .jumbotron-container .text {
-    width: 35%;
+    width: 30%;
 }
 
 .jumbotron-container .text p:first-child{
-    font-size: 15px;
+    font-size: 14px;
     padding: 50px 0 30px 0;
-    line-height: 1.5em;
 }
 
 #annullamento {
@@ -100,7 +100,7 @@ ul li a {
 }
 
 .jumbotron-container .image-jumbo {
-    width: 65%;
+    width: 70%;
 }
 
 .image-jumbo img {
@@ -113,7 +113,7 @@ ul li a {
 /* section 1 */
 
 /* titolo */
-section h2 {
+#titolo-section-1 {
     font-size: 40px;
     padding-top: 150px;
 }
@@ -134,11 +134,16 @@ section h2 {
     border: 3px solid blue;
 }
 
+#mensile {
+    border: 1px solid grey;
+    margin-left: 5px;
+}
+
 /* box 1*/
 
 .box {
     width: 30%;
-    height: 900px;
+    height: 1000px;
 }
 
 .box .promo{
@@ -148,8 +153,7 @@ section h2 {
 }
 /* promo header */
 .promo-header, .promo-centrale, .promo-footer {
-    padding-top: 30px;
-    padding-left: 30px;
+    padding: 25px;
 }
 
 .promo-header h4{
@@ -183,8 +187,8 @@ section h2 {
 }
 
 #prova-30-giorni a{
-    padding: 8px 48px;
-    margin: 30px 0;
+    padding: 8px 30px;
+    margin: 30px 10px;
 }
 
 .acquista-ora span {
@@ -194,7 +198,6 @@ section h2 {
 /* /promo centrale */
 
 /* promo footer */
-
 .promo-footer .punti-salienti {
     font-weight: bold;
     font-size: 20px;
@@ -203,3 +206,34 @@ section h2 {
 .promo-footer i {
     color: blue;
 }
+/* /promo footer */
+
+/* box 2 */
+.box-central {
+    margin: 0 50px;
+}
+/* /box 2 */
+
+/* box-footer  */
+ .box-footer {
+     margin-top: 50px;
+     text-align: center;
+     padding: 15px;
+ }
+
+ .contenitore-box-footer{
+     padding: 30px;
+ }
+
+ .text-left p{
+     padding: 15px 0 25px 0;
+ }
+
+ .text-left span{
+    font-size: 15px;
+    color: grey;
+}
+
+ 
+
+ 
