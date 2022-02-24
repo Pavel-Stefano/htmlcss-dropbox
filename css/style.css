@@ -1,0 +1,66 @@
+/* rest */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.btn {
+    
+}
+
+debug {
+    border: 1px solid black;
+}
+
+/* header */
+
+nav {
+    padding: 20px;
+    margin: o 20px;
+}
+
+nav .logo {
+    vertical-align: middle;
+}
+
+nav ul {
+    line-height: 30px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+#inizia .btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
