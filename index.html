@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-dropbox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- header -->
     <header>
+        <!-- logo + barra navigazione sinistra -->
         <nav class="clearfix">
             <div class="logo left">
                 <img src="img/logo-small.png" alt="">
-
             </div>
             <ul class="left">
                 <li><a href=""> Perch&eacute; DropBox</a></li>
@@ -21,6 +22,7 @@
                 <li><a href=""> Piani e prezzi</a></li>
             </ul>
 
+            <!-- barra navigazione destra -->
             <div id="inizia" class="right">
                 <a class="btn" href="#">Inizia</a>
             </div>
@@ -30,13 +32,35 @@
                 <li><a href=""> Contatta ufficio vendite</a></li>
                 <li><a href=""> Accedi</a></li>
             </ul>
-
         </nav>
+        <!-- /nav -->
+        
+        <!-- jumbotron -->
+        <div id="jumbotron">
+            <h1>Tutto ciò che serve per il lavoro, in un unico posto</h1>
 
-        <div class="jumbotron">
+            <div class="jumbotron-container clearfix debug">
+                <div class="text left debug">
+                    <p>
+                        Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business &eacute; più di uno spazio di archiviazione sicuro: &eacute; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                    </p>
 
+                    <div id="prova-gratuita">
+                        <a class="btn" href="#">Inizia la tua prova gratuita</a>
+                        <p id="annullamento">
+                            Annulla in qualsiasi momento
+                        </p>
+                        <!-- icona freccia -->
+                        <i class="fa-solid fa-arrow-down-long debug"></i>
+                    </div>
+                </div>
+
+                <div class="image-jumbo right debug">
+                    <img src="img/jumbo.png" alt="">
+                </div>
+            </div>
         </div>
-
+         <!-- /jumbotron -->
     </header>
     <!--/ header -->
 

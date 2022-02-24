@@ -26,10 +26,14 @@
 }
 
 .btn {
-    
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
 }
 
-debug {
+.debug {
     border: 1px solid black;
 }
 
@@ -64,3 +68,50 @@ ul li a {
     color: white;
     text-decoration: none;
 }
+
+/* jumbotron */
+#jumbotron {
+    background-color: rgb(90, 170, 197);
+    padding: 0 210px;
+}
+
+#jumbotron h1 {
+    font-size: 65px;
+    padding-top: 50px;
+}
+
+.jumbotron-container .text {
+    width: 35%;
+}
+
+.jumbotron-container .text p:first-child{
+    font-size: 15px;
+    padding: 50px 0 30px 0;
+    line-height: 1.5em;
+}
+
+#annullamento {
+    padding: 20px 0;
+}
+
+#prova-gratuita i {
+    font-size: 30px;
+ 
+}
+
+.jumbotron-container .image-jumbo {
+    width: 65%;
+}
+
+.image-jumbo img {
+    width: 100%;
+    position: relative;
+    bottom: -50px;
+}
+
+
+
+
+/* <!-- /jumbotron --> */
+
+
