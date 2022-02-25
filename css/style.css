@@ -339,11 +339,20 @@ main {
     width: 50%;
 }
 
+.box-image svg{
+    width: 50%;
+    height: 200px;
+    object-fit: scale-down;
+    margin: 0 50px;
+    fill: white;
+}
+
 .box-image img{
     width: 50%;
     height: 200px;
     object-fit: scale-down;
     margin: 0 50px;
+    fill: white;
 }
 
 #designit {
@@ -351,7 +360,7 @@ main {
 }
 
 #arizona {
-    background-color: rgb(148, 45, 45);
+    background-color:   rgb(53, 2, 2)
 }
 
 #florida {
