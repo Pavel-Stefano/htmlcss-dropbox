@@ -398,14 +398,17 @@ main {
 
 /* Prova Dropbox Business  */
 
-.dropbox-business {
+.prova-business {
     background-color: lightblue;
-    padding: 150px 100px;
+}
+
+.dropbox-business {
+    padding: 150px 0;
 }
 
 .business-left {
     width: 65%;
-    padding: 0 100px;
+    padding-right: 150px;
 }
 
 .business-right {
@@ -418,3 +421,26 @@ main {
     padding: 8px 50px;
 }
  /* /Prova Dropbox Business */
+ /* /section 6 */
+
+
+ /* section 7 */
+ .contenitore-domande {
+    padding: 150px 0;
+ }
+
+.contenitore-domande h3{
+    padding-bottom: 50px;
+    font-size: 30px;
+    border-bottom:1px solid grey;
+}
+
+.domande-frequenti {
+    border-bottom:1px solid grey;
+    padding: 30px 0;
+}
+
+.domande-frequenti span{
+    padding:0 50px;
+}
+/* /section 7 */
