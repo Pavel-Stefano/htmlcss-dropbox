@@ -309,7 +309,7 @@ main {
 
 /* section 5 */
 .section-5 {
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .section-5 a{
@@ -347,12 +347,8 @@ main {
     fill: white;
 }
 
-.box-image img{
-    width: 50%;
-    height: 200px;
-    object-fit: scale-down;
-    margin: 0 50px;
-    fill: white;
+.svg-negativo {
+    filter: invert(100);
 }
 
 #designit {
