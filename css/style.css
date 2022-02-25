@@ -64,6 +64,7 @@ nav ul li {
 
 ul li a {
     text-decoration: none;
+    color: black;
 }
 
 #inizia .btn {
@@ -72,6 +73,7 @@ ul li a {
     background-color: blue;
     color: white;
     text-decoration: none;
+    line-height: 15px;
 }
 
 /* jumbotron */
@@ -153,7 +155,7 @@ main {
 
 .box {
     width: 30%;
-    height: 1000px;
+    height: 1140px;
 }
 
 .box .promo{
@@ -211,6 +213,7 @@ main {
 .promo-footer .punti-salienti {
     font-weight: bold;
     font-size: 20px;
+    padding: 20px 0;
 }
 
 .promo-footer i {
@@ -245,7 +248,6 @@ main {
 
  .text-left span{
     font-size: 15px;
-    color: grey;
 }
 /* /box-footer  */
 /* /section 2 */
@@ -345,7 +347,7 @@ main {
 }
 
 #designit {
-    background-color: #95d1b4;;
+    background-color: #14ca72;;
 }
 
 #arizona {
@@ -440,6 +442,10 @@ main {
     padding: 30px 0;
 }
 
+.domande-frequenti p{
+    font-weight: bold;
+}
+
 .domande-frequenti span{
     padding:0 50px;
 }
@@ -456,12 +462,17 @@ footer {
 /* box-list */
 .box-list {
     width: 20%;
+    margin-bottom: 100px;
 }
 
 footer ul li {
     list-style: none;
     font-size: 12px;
     line-height: 2em;
+}
+
+footer ul li a {
+    color: white;
 }
 
 .footer-title {
@@ -471,8 +482,12 @@ footer ul li {
 }
 /* /box-list */
 
+.lingua span {
+    border-top: 1px solid white;
+    padding: 30px 0;
+}
+
 #lingua-parlata {
-    margin-top: 100px;
     background-color: black;
     border: 1px solid black;
     color: white;
