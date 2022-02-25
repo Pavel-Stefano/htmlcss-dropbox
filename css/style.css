@@ -321,6 +321,8 @@ main {
     background-color: lightgrey;
 }
 
+/* contenitore sinistra */
+ /* box */
 .contenitore-section-6 .sinistra, .contenitore-section-6 .destra {
     width: 30%;
     height: 400px;
@@ -349,3 +351,70 @@ main {
 #arizona {
     background-color: rgb(148, 45, 45);
 }
+
+#florida {
+    background-color: rgba(60, 62, 206, 0.979);
+}
+
+#topps {
+    background-color: orangered;
+}
+/* /contenitore sinistra */
+
+/* contenitore centrale */
+
+.centrale {
+    padding: 50px;
+}
+
+.centrale .logo {
+    width: 25%;
+    padding-bottom: 30px;
+}
+
+.centrale p{
+    padding: 30px 0;
+}
+/* /contenitore centrale */
+
+/* contenitore destra */
+
+#bicycle{
+    background-color: rgb(214, 0, 0);
+}
+
+#hearts-corp{
+    background-color: lightblue;
+}
+
+#lonely{
+    background-color: blue;
+}
+
+#clear-channel{
+    background-color: yellow;
+}
+/* /contenitore destra */
+
+/* Prova Dropbox Business  */
+
+.dropbox-business {
+    background-color: lightblue;
+    padding: 150px 100px;
+}
+
+.business-left {
+    width: 65%;
+    padding: 0 100px;
+}
+
+.business-right {
+    width: 35%;
+}
+
+#prova-business {
+    background-color: white;
+    color: black;
+    padding: 8px 50px;
+}
+ /* /Prova Dropbox Business */
